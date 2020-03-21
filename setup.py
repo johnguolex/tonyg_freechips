@@ -4,6 +4,7 @@ import re
 with open('README.md') as fp:
     long_description = fp.read()
 
+
 def parse_req_line(line):
     line = line.strip()
     if not line or line[0] == '#':

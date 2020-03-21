@@ -1,8 +1,3 @@
-import pytest
-
-import pokerbot
-
-
 def test_nothing():
     pass
 
