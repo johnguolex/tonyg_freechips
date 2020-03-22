@@ -40,7 +40,7 @@ will check all files in both `pokerbot` and `test` for syntax. Finally, running
 
 ## Version Control 
 
-Version control is handled in the `requirements_dev.txt` file. 
+Version control (for dependencies) is handled in the `requirements_dev.txt` file. You'll find a list of dependencies and their versions in said file. For the application itself, you'll find the version in the `__version__` variable of `__init__.py`. 
 
 ## Built With 
 * OpenCV 
