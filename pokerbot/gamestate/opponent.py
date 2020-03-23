@@ -5,7 +5,7 @@ class Opponent:
     ----------
     id : str
         an id representing the opponent
-    stack : int
+    chips : int
         represents the amount of chips the opponent has left
     """
 
