@@ -15,3 +15,6 @@ test:
 	--disable-warnings \
 	--verbose \
 	pokerbot tests
+
+clean: 
+	find . -name '*.pyc' -exec rm -f {} \;

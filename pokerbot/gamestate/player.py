@@ -1,6 +1,6 @@
 class Player:
     """
-    A class representing a Poker player.
+    A class representing a Poker player (private state) of a WSOP game.
 
     Attributes
     ----------
