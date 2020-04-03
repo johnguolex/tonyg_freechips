@@ -26,6 +26,10 @@ class ButtonPresser:
 
     Example usage:
     from pokerbot.web_interface.actions import ButtonPresser
+    b = ButtonPresser()
+    b.fold()
+    b.check()
+    b.bet('halfpot')
     """
 
     def __init__(self):
@@ -35,6 +39,10 @@ class ButtonPresser:
         self.bet_region = None
 
     def calibrate(self):
+        """
+        Calibrates the ButtonPresser class to the on-screen WSOP game.
+        Saves the location of the buttons for performance later.
+        """
         x, y = pyautogui.locateCenterOnScreen(MAIL_BUTTON)
         self.button_region = (x-50, y-100, 1300, 200)
 
