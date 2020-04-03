@@ -41,7 +41,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Test with PyTest
       run: |
-        python -m pytest \
+        python -m pytest --ignore=pokerbot/web_interface \
         --doctest-modules \
         --disable-warnings \
         --verbose \
