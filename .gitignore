@@ -3,4 +3,5 @@
 *.pyc
 pokerbot/__pycache__/
 __pycache__/
+.DS_Store
 tests/__pycache__/
